@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Summary of ActsAsInterval."
   s.description = "Description of ActsAsInterval."
   s.license     = "MIT"
+  s.required_ruby_version = '~> 2'
 
   s.files = Dir["{app,config,db,lib}/**/*", "LICENCE.md", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]

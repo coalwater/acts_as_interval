@@ -1,3 +1,7 @@
 language: ruby
 before_script:
     - mysql -e 'create database `acts_as_interval-test`;'
+rvm:
+  - 2.0.0
+  - 2.1.5
+  - 2.2.0
