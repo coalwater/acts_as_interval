@@ -1,7 +1,7 @@
 language: ruby
 before_script:
     - mysql -e 'create database `acts_as_interval-test`;'
-    - cd spec/dummy; RAILS_ENV=test bundle exec rake db:setup
+    - cd spec/dummy; RAILS_ENV=test bin/rake db:setup
 rvm:
   - 2.0.0
   - 2.1.5
