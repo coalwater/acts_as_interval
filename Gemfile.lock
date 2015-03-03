@@ -135,6 +135,6 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_interval!
-  factory_girl_rails
-  faker
-  rspec-rails
+  factory_girl_rails (~> 4)
+  faker (~> 1)
+  rspec-rails (~> 3)
