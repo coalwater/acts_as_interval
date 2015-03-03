@@ -1,4 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/acts_as_interval.svg)](http://badge.fury.io/rb/acts_as_interval)
+[![Build Status](https://travis-ci.org/coalwater/acts_as_interval.svg)](https://travis-ci.org/coalwater/acts_as_interval?branch=master)
 # ActsAsInterval
 Acts as interval provides useful functions for models that have intervals in
 nature, models that have a start and end time, these methods are used to be
