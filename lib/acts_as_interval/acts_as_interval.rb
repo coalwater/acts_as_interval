@@ -27,8 +27,6 @@ module ActsAsInterval
         define_method "overlapping_#{klass_name}" do
           self.class.where("TIMEDIFF(#{start_field}, :my_end) * TIMEDIFF(:my_start, #{end_field}) >= 0", my_start: self.send(start_field), my_end: self.send(end_field)).where.not(id: self.id)
         end
-        alias_method :intervals_before, "past_#{klass_name}"
-        alias_method :intervals_after, "future_#{klass_name}"
       end
     end
   end
